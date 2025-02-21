@@ -443,6 +443,6 @@ async def 도움말(ctx):
     """
     await ctx.send(embed=create_embed_message("도움말", help_message, discord.Color.green()))
 
-access_token = os.environ["MTM0MjEzMDM4OTU3MjkxNTIwMA.G-nVET.fuCNd62BRfstcYz_5TSod0LnrayvuEjVLkxDWk"]
+access_token = os.environ["MTM0MjEzMDM4OTU3MjkxNTIwMA.GHvcw7.f2r8emf2DhQW3mivm2efhCt3yY5H4BsIy4sshw"]
 # 봇 토큰으로 로그인
 client.run('access_token')
