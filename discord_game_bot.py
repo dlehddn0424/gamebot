@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands, tasks
 import random
+import os
 import time
 import asyncio
 import json
@@ -442,5 +443,6 @@ async def 도움말(ctx):
     """
     await ctx.send(embed=create_embed_message("도움말", help_message, discord.Color.green()))
 
+access_token = os.environ["BOT_TOKEN"]
 # 봇 토큰으로 로그인
 client.run('MTM0MjEzMDM4OTU3MjkxNTIwMA.G-nVET.fuCNd62BRfstcYz_5TSod0LnrayvuEjVLkxDWk')
